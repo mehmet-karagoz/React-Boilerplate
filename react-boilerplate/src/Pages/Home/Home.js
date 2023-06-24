@@ -4,6 +4,7 @@ import { setUser } from '../../redux/slices/userSlice';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import useCustomHook from '../../hooks/useCustomHook';
+import { convertToUppercase } from '../../utils/helpers';
 import './Home.css';
 
 const Home = () => {
@@ -16,6 +17,8 @@ const Home = () => {
     dispatch(setUser(user));
   };
 
+  const uppercasedText = convertToUppercase('Hello, World!');
+
   return (
     <>
       <Header/>
@@ -26,6 +29,7 @@ const Home = () => {
         {user.name && <p>Welcome, {user.name}!</p>}
         <p>Count: {count}</p>
         <button onClick={increment}>Increment</button>
+        <p>{uppercasedText}</p>
       </div>
       <Footer/>
     </>
