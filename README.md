@@ -20,8 +20,9 @@ This project is a boilerplate for creating applications with React. It includes 
 To use this boilerplate, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/mehmet-karagoz/React-Boilerplate.git`
-2. Install dependencies: `npm install`
-3. Start the development server: `npm start`
+2. Go to project folder: `cd react-boilerplate`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
 ## Usage
 
