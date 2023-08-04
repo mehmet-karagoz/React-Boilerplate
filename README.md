@@ -5,6 +5,9 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/mehmet-karagoz/React-Boilerplate)
 ![GitHub](https://img.shields.io/github/license/mehmet-karagoz/React-Boilerplate)
 
+<a href="https://www.buymeacoffee.com/mehmetkaragozdev"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=mehmetkaragozdev&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
+
 ## Description
 
 This project is a boilerplate for creating applications with React. It includes a pre-configured setup with [list the tools, libraries, and configurations your boilerplate provides].
